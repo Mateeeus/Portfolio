@@ -1,3 +1,34 @@
 body {
-    background-color: black;
+    background-color: #013220;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.MenuTopo {
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    grid-template-columns: auto auto auto auto;
+    height: 100%;
+    margin-top: 0px;
+}
+
+.Inicio, .Curriculo, .Contato, .Projetos {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: color 0.25s ease-in 100ms;
+}
+
+.Inicio:hover, .Curriculo:hover, .Contato:hover, .Projetos:hover {
+    color: black;
+    cursor: pointer;
 }
