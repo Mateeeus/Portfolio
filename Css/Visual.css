@@ -19,16 +19,19 @@ header {
     margin-top: 0px;
 }
 
-.Inicio, .Curriculo, .Contato, .Projetos {
+.Home, .Curriculo, .Projetos {
     color: white;
     font-weight: bold;
     font-size: 25px;
     margin-top: auto;
     margin-bottom: auto;
     transition: color 0.25s ease-in 100ms;
+    box-shadow: inset 0 0 0 0 lightblue;
+    transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
 }
 
-.Inicio:hover, .Curriculo:hover, .Contato:hover, .Projetos:hover {
-    color: black;
+.Home:hover, .Curriculo:hover, .Projetos:hover {
     cursor: pointer;
+    color: black;
+    box-shadow: inset 200px 0 0 0 lightblue;
 }
